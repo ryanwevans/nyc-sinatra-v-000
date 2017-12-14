@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>All Figures</title>
+  </head>
+  <body>
+    <% @figures.each do |figure| %>
+      <label for="figure_name"><h3><%= figure.name %></h3></label>
+    <% end %>
+  </body>
+</html>
